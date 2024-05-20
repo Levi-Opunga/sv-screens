@@ -55,7 +55,7 @@ The `Link` takes the functions provided by `R` with the params passed and genera
 ```svelte
 <Link href={R._Articles({})} name="Hello" /> <!-- links to /articles-->
 <Link href={R._MatchId({  id: 3,})} name="World" /> <!-- file /articles/[+id].svelte links to /articles/3 -->
-<Link href={R._Tools({ category: "wooden" })} name="Wooden Tools" /> <!-- file /tools/[category].svelte  links to /tools/wooden -->
+<Link href={R._ToolsCategory({ category: "wooden" })} name="Wooden Tools" /> <!-- file /tools/[category].svelte  links to /tools/wooden -->
 
 ```
 
